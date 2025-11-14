@@ -26,6 +26,11 @@ export default function Home() {
                 </Link>
               </Button>
               <Button variant="outline" size="lg" asChild>
+                <Link href="/checkout">
+                  🛒 Quick Demo Checkout
+                </Link>
+              </Button>
+              <Button variant="outline" size="lg" asChild>
                 <Link href="/features">
                   Browse Features
                 </Link>
