@@ -40,6 +40,8 @@ A complete replica of SellAuth.com built with modern technologies. Your digital 
 
 ## 🚀 Getting Started
 
+*Updated to include all dependencies.*
+
 ### Prerequisites
 - Node.js 18+
 - npm or yarn
