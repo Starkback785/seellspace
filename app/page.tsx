@@ -26,13 +26,18 @@ export default function Home() {
                 </Link>
               </Button>
               <Button variant="outline" size="lg" asChild>
-                <Link href="/checkout">
-                  🛒 Quick Demo Checkout
+                <Link href="/stores">
+                  🏪 Browse Stores
                 </Link>
               </Button>
               <Button variant="outline" size="lg" asChild>
                 <Link href="/features">
-                  Browse Features
+                  📖 Browse Features
+                </Link>
+              </Button>
+              <Button variant="outline" size="lg" asChild>
+                <Link href="/checkout">
+                  🛒 Quick Demo
                 </Link>
               </Button>
             </div>

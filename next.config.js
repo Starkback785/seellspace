@@ -6,12 +6,22 @@ const nextConfig = {
     }
   },
   images: {
-    domains: [
-      'localhost',
-      'sellspace.vercel.app',
-      'files.stripe.com',
-      'avatars.githubusercontent.com',
-      'lh3.googleusercontent.com'
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'files.stripe.com',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'avatars.githubusercontent.com',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'lh3.googleusercontent.com',
+        pathname: '/**',
+      },
     ],
     formats: ['image/webp', 'image/avif']
   },
